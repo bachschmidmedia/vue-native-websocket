@@ -126,7 +126,7 @@ Update state in the open, close and error callbacks. You can also check the sock
 
 Handle all the data in the `SOCKET_ONMESSAGE` mutation.
 
-Reconect events will commit mutations `SOCKET_RECONNECT` and `SOCKET_RECONNECT_ERROR`.
+Reconnect events will commit mutations `SOCKET_RECONNECT` and `SOCKET_RECONNECT_ERROR`.
 
 ``` js
 import Vue from 'vue'
